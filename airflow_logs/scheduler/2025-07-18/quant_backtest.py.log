@@ -1,0 +1,126 @@
+[2025-07-18T00:56:41.022+0000] {processor.py:157} INFO - Started process (PID=202) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T00:56:41.024+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T00:56:41.025+0000] {logging_mixin.py:150} INFO - [2025-07-18T00:56:41.025+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T00:56:41.338+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T00:56:41.357+0000] {logging_mixin.py:150} INFO - [2025-07-18T00:56:41.356+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T00:56:41.380+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.361 seconds
+[2025-07-18T01:50:35.512+0000] {processor.py:157} INFO - Started process (PID=201) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:50:35.513+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T01:50:35.514+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:50:35.514+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:50:35.851+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:50:35.881+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:50:35.881+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T01:50:35.910+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.401 seconds
+[2025-07-18T01:51:06.124+0000] {processor.py:157} INFO - Started process (PID=215) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:51:06.125+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T01:51:06.125+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:51:06.125+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:51:06.452+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:51:06.469+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:51:06.469+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T01:51:06.489+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.368 seconds
+[2025-07-18T01:55:26.551+0000] {processor.py:157} INFO - Started process (PID=171) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:55:26.553+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T01:55:26.556+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:55:26.555+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:55:26.839+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:55:26.854+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:55:26.853+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T01:55:26.883+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.334 seconds
+[2025-07-18T01:55:57.147+0000] {processor.py:157} INFO - Started process (PID=185) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:55:57.148+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T01:55:57.148+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:55:57.148+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:55:57.552+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:55:57.574+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:55:57.573+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T01:55:57.600+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.454 seconds
+[2025-07-18T01:56:27.760+0000] {processor.py:157} INFO - Started process (PID=198) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:56:27.761+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T01:56:27.762+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:56:27.762+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:56:28.018+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:56:28.033+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:56:28.033+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T01:56:28.054+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.296 seconds
+[2025-07-18T01:56:58.254+0000] {processor.py:157} INFO - Started process (PID=231) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:56:58.255+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T01:56:58.256+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:56:58.256+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:56:58.477+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:56:58.491+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:56:58.491+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T01:56:58.510+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.259 seconds
+[2025-07-18T01:57:28.845+0000] {processor.py:157} INFO - Started process (PID=244) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:57:28.845+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T01:57:28.846+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:57:28.846+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:57:29.133+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:57:29.151+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:57:29.151+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T01:57:29.175+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.333 seconds
+[2025-07-18T01:57:59.482+0000] {processor.py:157} INFO - Started process (PID=257) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:57:59.484+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T01:57:59.485+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:57:59.485+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:57:59.730+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:57:59.745+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:57:59.745+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T01:57:59.765+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.288 seconds
+[2025-07-18T01:58:29.835+0000] {processor.py:157} INFO - Started process (PID=270) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:58:29.836+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T01:58:29.837+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:58:29.837+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:58:30.075+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:58:30.090+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:58:30.090+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T01:58:30.109+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.278 seconds
+[2025-07-18T01:59:00.456+0000] {processor.py:157} INFO - Started process (PID=283) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:59:00.457+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T01:59:00.458+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:59:00.458+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:59:00.729+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:59:00.744+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:59:00.743+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T01:59:00.763+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.312 seconds
+[2025-07-18T01:59:31.150+0000] {processor.py:157} INFO - Started process (PID=296) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:59:31.152+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T01:59:31.153+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:59:31.153+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:59:31.452+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T01:59:31.469+0000] {logging_mixin.py:150} INFO - [2025-07-18T01:59:31.469+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T01:59:31.490+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.346 seconds
+[2025-07-18T02:00:01.848+0000] {processor.py:157} INFO - Started process (PID=309) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T02:00:01.849+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T02:00:01.850+0000] {logging_mixin.py:150} INFO - [2025-07-18T02:00:01.850+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T02:00:02.105+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T02:00:02.121+0000] {logging_mixin.py:150} INFO - [2025-07-18T02:00:02.121+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T02:00:02.144+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.301 seconds
+[2025-07-18T02:00:32.162+0000] {processor.py:157} INFO - Started process (PID=322) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T02:00:32.162+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T02:00:32.163+0000] {logging_mixin.py:150} INFO - [2025-07-18T02:00:32.163+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T02:00:32.402+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T02:00:32.417+0000] {logging_mixin.py:150} INFO - [2025-07-18T02:00:32.417+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T02:00:32.437+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.278 seconds
+[2025-07-18T02:01:02.726+0000] {processor.py:157} INFO - Started process (PID=335) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T02:01:02.728+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T02:01:02.728+0000] {logging_mixin.py:150} INFO - [2025-07-18T02:01:02.728+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T02:01:02.957+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T02:01:02.972+0000] {logging_mixin.py:150} INFO - [2025-07-18T02:01:02.972+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T02:01:02.991+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.269 seconds
+[2025-07-18T03:05:40.037+0000] {processor.py:157} INFO - Started process (PID=202) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:05:40.042+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T03:05:40.044+0000] {logging_mixin.py:150} INFO - [2025-07-18T03:05:40.044+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:05:40.550+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:05:40.566+0000] {logging_mixin.py:150} INFO - [2025-07-18T03:05:40.566+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T03:05:40.589+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.559 seconds
+[2025-07-18T03:06:10.780+0000] {processor.py:157} INFO - Started process (PID=226) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:06:10.780+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T03:06:10.781+0000] {logging_mixin.py:150} INFO - [2025-07-18T03:06:10.781+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:06:11.120+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:06:11.137+0000] {logging_mixin.py:150} INFO - [2025-07-18T03:06:11.137+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T03:06:11.159+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.382 seconds
+[2025-07-18T03:06:41.415+0000] {processor.py:157} INFO - Started process (PID=239) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:06:41.417+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T03:06:41.418+0000] {logging_mixin.py:150} INFO - [2025-07-18T03:06:41.418+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:06:41.710+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:06:41.725+0000] {logging_mixin.py:150} INFO - [2025-07-18T03:06:41.725+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T03:06:41.745+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.335 seconds
+[2025-07-18T03:07:11.840+0000] {processor.py:157} INFO - Started process (PID=252) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:07:11.843+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T03:07:11.845+0000] {logging_mixin.py:150} INFO - [2025-07-18T03:07:11.844+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:07:12.174+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:07:12.190+0000] {logging_mixin.py:150} INFO - [2025-07-18T03:07:12.190+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T03:07:12.210+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.380 seconds
+[2025-07-18T03:07:42.304+0000] {processor.py:157} INFO - Started process (PID=265) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:07:42.305+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T03:07:42.305+0000] {logging_mixin.py:150} INFO - [2025-07-18T03:07:42.305+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:07:42.561+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:07:42.576+0000] {logging_mixin.py:150} INFO - [2025-07-18T03:07:42.576+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T03:07:42.597+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.297 seconds
+[2025-07-18T03:08:12.921+0000] {processor.py:157} INFO - Started process (PID=278) to work on /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:08:12.921+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/quant_backtest.py for tasks to queue
+[2025-07-18T03:08:12.922+0000] {logging_mixin.py:150} INFO - [2025-07-18T03:08:12.922+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:08:13.214+0000] {processor.py:836} INFO - DAG(s) dict_keys(['quant_backtest']) retrieved from /opt/airflow/dags/quant_backtest.py
+[2025-07-18T03:08:13.231+0000] {logging_mixin.py:150} INFO - [2025-07-18T03:08:13.231+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-18T03:08:13.253+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/quant_backtest.py took 0.334 seconds

@@ -1,0 +1,112 @@
+services:
+  db:
+    image: postgres:14
+    environment:
+      POSTGRES_DB: quant
+      POSTGRES_USER: jaelyn
+      POSTGRES_PASSWORD: pass
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  data_ingestion:
+    build: ./data_ingestion
+    #image: quant_backtest-data_ingestion:latest
+    image: 292899125482.dkr.ecr.us-east-1.amazonaws.com/quant_backtest-data_ingestion:latest
+    depends_on:
+      - db
+    environment:
+      - DB_URL=postgresql://jaelyn:pass@db:5432/quant
+      - API_KEY=XbTx7h_kP0dGxI8fdRCC7Blx9i0Wjr3l
+
+  backtester:
+    build:
+      context: .
+      dockerfile: backtester/Dockerfile
+    #image: quant_backtest-backtester:latest
+    image: 292899125482.dkr.ecr.us-east-1.amazonaws.com/quant_backtest-backtester:latest
+    depends_on:
+      - db
+    environment:
+      - DB_URL=postgresql://jaelyn:pass@db:5432/quant
+      - API_KEY=XbTx7h_kP0dGxI8fdRCC7Blx9i0Wjr3l
+
+  dashboard:
+    build:
+      context: ./dashboard
+      dockerfile: Dockerfile
+   #image: quant_backtest-dashboard:latest
+    image: 292899125482.dkr.ecr.us-east-1.amazonaws.com/quant_backtest-dashboard:latest
+    environment:
+      - DB_URL=postgresql://jaelyn:pass@db:5432/quant
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backtester
+
+
+  airflow-scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile-airflow
+    image: 292899125482.dkr.ecr.us-east-1.amazonaws.com/quant_backtest-airflow-scheduler:latest
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://jaelyn:pass@db/quant
+      - AIRFLOW__WEBSERVER__SECRET_KEY=…
+      - DB_URL=postgresql://jaelyn:pass@db:5432/quant
+      - API_KEY=XbTx7h_kP0dGxI8fdRCC7Blx9i0Wjr3l
+      - PYTHONPATH=/opt/airflow/dags:/opt/airflow/data_ingestion:/opt/airflow/backtester
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./data_ingestion:/opt/airflow/data_ingestion
+      - ./backtester:/opt/airflow/backtester
+      - ./airflow_logs:/opt/airflow/logs
+    entrypoint:
+      - bash
+      - -c
+      - |
+        # install the backtester deps
+        python3 -m pip install --no-cache-dir backtrader yfinance && \
+        # init the Airflow DB & user on first run
+        airflow db init && \
+        airflow users create --username admin --password admin \
+          --firstname Admin --lastname User --role Admin --email admin@example.com && \
+        # start the scheduler
+        exec airflow scheduler
+    depends_on:
+      - db
+
+
+
+  airflow-webserver:
+    build:
+      context: .
+      dockerfile: Dockerfile-airflow   
+    image: 292899125482.dkr.ecr.us-east-1.amazonaws.com/quant_backtest-airflow-webserver:latest
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://jaelyn:pass@db/quant
+      - AIRFLOW__WEBSERVER__SECRET_KEY=…
+      - DB_URL=postgresql://jaelyn:pass@db:5432/quant
+      - API_KEY=XbTx7h_kP0dGxI8fdRCC7Blx9i0Wjr3l
+      - PYTHONPATH=/opt/airflow/dags:/opt/airflow/data_ingestion:/opt/airflow/backtester
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./data_ingestion:/opt/airflow/data_ingestion
+      - ./backtester:/opt/airflow/backtester
+      - ./airflow_logs:/opt/airflow/logs
+    entrypoint:
+      - bash
+      - -c
+      - |
+        python3 -m pip install --no-cache-dir backtrader yfinance && \
+        exec airflow webserver
+    ports:
+      - "8080:8080"
+    depends_on:
+      - airflow-scheduler
+
+
+volumes:
+  pgdata:
+  airflow_logs:

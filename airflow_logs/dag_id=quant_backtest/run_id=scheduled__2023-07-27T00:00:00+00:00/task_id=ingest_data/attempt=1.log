@@ -1,0 +1,14 @@
+[2025-07-17T06:42:24.650+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: quant_backtest.ingest_data scheduled__2023-07-27T00:00:00+00:00 [queued]>
+[2025-07-17T06:42:24.656+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: quant_backtest.ingest_data scheduled__2023-07-27T00:00:00+00:00 [queued]>
+[2025-07-17T06:42:24.656+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-17T06:42:24.663+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): ingest_data> on 2023-07-27 00:00:00+00:00
+[2025-07-17T06:42:24.667+0000] {standard_task_runner.py:57} INFO - Started process 680 to run task
+[2025-07-17T06:42:24.668+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'quant_backtest', 'ingest_data', 'scheduled__2023-07-27T00:00:00+00:00', '--job-id', '66', '--raw', '--subdir', 'DAGS_FOLDER/quant_backtest.py', '--cfg-path', '/tmp/tmpb3y0e8iz']
+[2025-07-17T06:42:24.670+0000] {standard_task_runner.py:85} INFO - Job 66: Subtask ingest_data
+[2025-07-17T06:42:24.698+0000] {task_command.py:410} INFO - Running <TaskInstance: quant_backtest.ingest_data scheduled__2023-07-27T00:00:00+00:00 [running]> on host c5b547b9f413
+[2025-07-17T06:42:24.748+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='you' AIRFLOW_CTX_DAG_ID='quant_backtest' AIRFLOW_CTX_TASK_ID='ingest_data' AIRFLOW_CTX_EXECUTION_DATE='2023-07-27T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-07-27T00:00:00+00:00'
+[2025-07-17T06:42:24.752+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/utils/context.py:313 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2025-07-17T06:42:25.108+0000] {python.py:183} INFO - Done. Returned value was: None
+[2025-07-17T06:42:25.127+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=quant_backtest, task_id=ingest_data, execution_date=20230727T000000, start_date=20250717T064224, end_date=20250717T064225
+[2025-07-17T06:42:25.149+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-17T06:42:25.168+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

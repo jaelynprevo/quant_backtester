@@ -1,0 +1,3 @@
+# infra/terraform.tfvars
+db_password = "{}"
+api_key     = "{}" 

@@ -1,0 +1,8 @@
+# Dockerfile-airflow
+FROM apache/airflow:2.6.3
+
+USER root
+# Install your backtester dependencies
+RUN python3 -m pip install --no-cache-dir backtrader yfinance
+
+USER airflow

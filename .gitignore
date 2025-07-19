@@ -1,0 +1,4 @@
+# Ignore Terraform state/plugins
+.terraform/
+infra/.terraform/
+terraform.tfstate*
